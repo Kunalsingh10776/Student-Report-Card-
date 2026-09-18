@@ -1,16 +1,16 @@
-# 🎓 Student Report Card System
+#  Student Report Card System
 
 A lightweight, robust Java console application for managing student academic performance, calculating grades, and presenting report card summaries.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Student Report Card System** is an interactive Java console application designed to streamline academic evaluation and record-keeping for students. Built with clean, object-oriented Java principles, the application enables users to register student profiles, record marks across dynamic numbers of subjects, automatically calculate performance metrics, and analyze class grade distributions.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Dynamic Student Entry:** Register students with custom roll numbers, names, and subject counts.
 - **Automated Performance Calculation:** Automatically computes total marks, percentage, and assigned letter grades.
@@ -21,7 +21,7 @@ The **Student Report Card System** is an interactive Java console application de
 
 ---
 
-## 📊 Grading Scale
+##  Grading Scale
 
 | Percentage Range | Grade Assigned | Academic Standard |
 | :--- | :---: | :--- |
@@ -33,19 +33,19 @@ The **Student Report Card System** is an interactive Java console application de
 
 ---
 
-## 🛠️ Tech Stack & Requirements
+##  Tech Stack & Requirements
 
 - **Programming Language:** Java (JDK 8 or higher)
 - **Standard Packages:** java.util.ArrayList, java.util.Scanner
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 Ensure Java JDK is installed on your machine. You can verify your installation by running:
 
-💻 Console Interface Example-
+ Console Interface Example-
 
 	===== Student Report Card System =====
 	1. Add Student
@@ -64,7 +64,7 @@ Ensure Java JDK is installed on your machine. You can verify your installation b
 	Student added successfully!
 
 
-📁 Class Structure
+ Class Structure
 	Student: Encapsulates private attributes (name, rollNo, marks[], total, percentage, grade). Computes internal academic performance 	metrics upon initialization.
 
 	StudentReportCard: Main controller class hosting the menu-driven system loop, input parsing, memory collection (	ArrayList<Student>), and report actions.
